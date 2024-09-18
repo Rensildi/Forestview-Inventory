@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>Download App - Inventory Vision</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Adjusts the padding below the navbar */
+        main>.container {
+            padding: 100px 15px 0;
+            margin-bottom: 5rem;
+        }
+
+        /* Centering the content */
+        .download-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        /* Wrapper around the buttons */
+        .button-wrapper {
+            display: inline-flex;
+            gap: 20px; /* Spacing between buttons */
+            margin-bottom: 30px;
+        }
+
+        /* Button styles */
+        .download-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            display: inline-flex;
+            align-items: center;
+            transition: background-color 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effects */
+        }
+
+        /* Image styling for Apple and Windows logos */
+        .download-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            transition: filter 0.3s ease; /* Smooth transition for hover */
+        }
+
+        /* Hover effect for button and image */
+        .download-btn:hover {
+            background-color: #444; /* Slightly lighter background */
+            filter: brightness(1.2); /* Lightens the entire button and image */
+        }
+
+        /* Styling for the "Download it now." text */
+        .download-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        /* Instruction section styling */
+        .instructions {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .instructions h4 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inventory Vision</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Download App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="flex-shrink-0">
+        <div class="container mt-5">
+            <div class="download-section">
+                <div class="download-header">Download it now.</div>
+                
+                <!-- Button wrapper for MacOS and Windows buttons -->
+                <div class="button-wrapper">
+                    <!-- MacOS Download Button -->
+                    <button class="download-btn">
+                        <img src="apple_logo.png" alt="Apple Logo" class="download-icon"> MacOS
+                    </button>
+
+                    <!-- Windows Download Button -->
+                    <button class="download-btn">
+                        <img src="windows_logo.png" alt="Windows Logo" class="download-icon"> Windows
+                    </button>
+                </div>
+
+                <!-- Instructions -->
+                <div class="instructions">
+                    <h4>How to install on MacOS:</h4>
+                    <p>1. Click the "MacOS" button to download the .dmg file.</p>
+                    <p>2. Once downloaded, double-click the .dmg file to open it.</p>
+                    <p>3. Drag the Inventory Vision app into the Applications folder.</p>
+                    <p>4. Open the app from the Applications folder to start using Inventory Vision.</p>
+
+                    <h4>How to install on Windows:</h4>
+                    <p>1. Click the "Windows" button to download the .exe file.</p>
+                    <p>2. After the download is complete, double-click the .exe file to start the installer.</p>
+                    <p>3. Follow the on-screen instructions to install the Inventory Vision app.</p>
+                    <p>4. Once installed, launch the app from the Start menu to get started.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
