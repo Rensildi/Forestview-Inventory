@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Inventory Vision</title>
+    <title>Download Inventory Vision</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,8 +17,23 @@
     <style>
         /* Adjusts the padding below the navbar */
         main>.container {
-            padding: 100px 15px 0; /* Pushes the content 100px below the navbar */
+            padding: 100px 15px 0;
             margin-bottom: 5rem;
+        }
+
+        /* Styling for the download button */
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -51,9 +66,14 @@
 
     <!-- Main content -->
     <main class="flex-shrink-0">
-        <div id="home" class="container">
-            <h1 class="mt-5">Welcome to Inventory Vision Homepage</h1>
-            <p class="lead">Navigate to "Download App" for installation.</p>
+        <div class="container">
+            <h1 class="mt-5">Download Inventory Vision</h1>
+            <p class="lead">Click the button below to download the latest version of Inventory Vision.</p>
+            
+            <!-- Download button linking to Google Drive direct download link -->
+            <a href="https://drive.google.com/uc?export=download&id=1iRXCAFeaPR-Kza8jTgoK_Czwyn81Z4yp">
+                <button class="download-btn">Download Inventory Vision</button>
+            </a>
         </div>
     </main>
 
